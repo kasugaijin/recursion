@@ -35,7 +35,7 @@ end
 
 beer(5)
 
-# get fibonacci number using iteration
+# get fibonacci sequence of length n using iteration
 def fibonacci_i(n)
   output = [0, 1]
   (n - 2).times do
